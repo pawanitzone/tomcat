@@ -1,0 +1,13 @@
+#!/bin/bash
+yum install -y wget
+
+wget http://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.13/bin/apache-tomcat-8.5.13.tar.gz
+
+tar xvf apache-tomcat-8.5.13.tar.gz
+
+# Move untar to /opt/tomcat8
+
+mv apache-tomcat-8.5.13 /opt/tomcat8
+
+
+
